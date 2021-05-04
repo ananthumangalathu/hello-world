@@ -15,6 +15,10 @@ for i in range(1,8):
                 print("C",end="")
             else:
                 print(" ",end="")
-        
+        if(i==4):
+            if(j in [30,44,58,68,73,79,85,89,99,119,132,142] or j in range (1,12,2) or j in range (15,26,2) or j in range (104,115,2)):
+                print("C", end="")
+            else:
+                print(" ",end="")
     print("\r")
         
