@@ -30,5 +30,10 @@ for i in range(1,8):
                 print("C",end="")
             else:
                 print(" ",end="")
+        if(i==7):
+            if(j in [1,11,104,114] or j in range(15,26,2) or j in range (30,41,2) or j in range (44,55,2) or j in range (58,69,2) or j in range (73,86,2) or j in range (89,100,2) or j in range (119,130,2) or j in range (132,143,2)):
+                print("c",end="")
+            else:
+                print(" ",end="")
     print("\r")
         
