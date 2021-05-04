@@ -20,5 +20,10 @@ for i in range(1,8):
                 print("C", end="")
             else:
                 print(" ",end="")
+        if(i==5):
+            if(j in [1,11,15,30,44,58,68,73,79,85,89,99,104,114,119,132,142]):
+                print("C",end="")
+            else:
+                print(" ",end="")
     print("\r")
         
